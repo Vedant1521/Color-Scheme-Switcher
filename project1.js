@@ -27,3 +27,25 @@ buttons.forEach((button) => {
     }
   });
 });
+
+//(Same working :-)
+// buttons.forEach((button) => {
+//   button.addEventListener('click', () => {
+//     // Use 'button' to refer to the current button
+//     if (button.id === 'grey') {
+//       body.style.backgroundColor = button.id; // this is just body.style.backgroundColor ='grey';
+//     }
+//     if (button.id === 'white') {
+//       body.style.backgroundColor = button.id; // this is just body.style.backgroundColor ='white';
+//       heading.style.color = 'black'; 
+//     }
+//     if (button.id === 'blue') {
+//       body.style.backgroundColor = button.id; // this is just body.style.backgroundColor ='blue';
+//       heading.style.color = 'yellow';
+//     }
+//     if (button.id === 'yellow') {
+//       body.style.backgroundColor = button.id; // this is just body.style.backgroundColor ='yellow';
+//       heading.style.color = 'purple';
+//     }
+//   });
+// });
